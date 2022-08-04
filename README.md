@@ -1,4 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dynamic Product Listing Web Application
+This is project developed using these technologies:
+- [Next.js](https://nextjs.org/)
+- [Figma](https://www.figma.com/file/uWsNcQ6k60xf0yu34vH1pb/TT-PLP?node-id=2%3A640)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Netlify](https://www.netlify.com/)
+- [Github](https://github.com/)
 
 ## Getting Started
 

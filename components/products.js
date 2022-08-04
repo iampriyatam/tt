@@ -20,7 +20,7 @@ export default function Products(props){
                     .map(product => 
                         <div className="col-md-3" key={product.id}>
                             <div className="card product mb-2">
-                                <img src={product.plpimaage} class="card-img-top product-img"/>
+                                <img src={product.plpimaage} className="card-img-top product-img"/>
                                 <div className="card-body">
                                     <h5 className="card-title product-title">{product.name}</h5>
                                     <a href="#" className="stretched-link"></a>

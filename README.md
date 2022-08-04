@@ -26,11 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Created Next.js app using NPM (Node Package Manager)
 - Converted website into next.js app
 - Fetched products listing from an RESTful API using Axios.
+- Used vercel to deploy this app seamlessly.
 
 
+## Deploy on Netlify
 
-## Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://www.netlify.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out this [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the live preview of this app from [here](https://cheerful-mousse-74eb18.netlify.app/)

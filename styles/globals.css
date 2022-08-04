@@ -1,26 +1,155 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('http://fonts.cdnfonts.com/css/comme');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+body{
+  background-color: #0C0C0C;
+  padding-top: 74px;
+}
+.container{
+  max-width: 1280px;
+}
+.app-header nav{
+  background: #0C0C0C;
+}
+.app-header nav .navbar-brand, footer .navbar-brand{
+  font-family: 'Comme', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.55em;
+  color: #E5DFD9;
+  text-transform: uppercase;
+  transition: all ease 0.25s;
+}
+.app-header nav .navbar-brand:hover, footer .navbar-brand:hover{
+  color: #fff;
 }
 
-a {
-  color: inherit;
+.app-header nav .navbar-nav .nav-item{
+  margin-right: 1.5rem;
+  transition: transform .25s ease-in-out;
+}
+.app-header nav .top-menu .nav-item:hover{
+  transform: scale(1.2);
+}
+.app-header nav .menu .nav-item a{
+  font-family: 'Encode Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
   text-decoration: none;
+  transition: all ease 0.25s;
+}
+.app-header nav .menu .nav-item a:hover,
+.app-header nav .menu .nav-item a:link{
+  color: #fff;
+}
+.app-header .mega-menu-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-header .mega-menu .mega-menu-item a{
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
+  margin-top: 1rem;
+  text-decoration: none;
+  transition: all ease 0.25s;
+}
+.app-header .mega-menu .mega-menu-item a:hover{
+  color: #fff;
+}
+.app-header .mega-menu .card{
+  background: transparent;
+  margin-right: 4rem;
 }
 
-* {
-  box-sizing: border-box;
+.products-list .products-list-details{
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1em;
+  color: #E5DFD9;
+}
+.products-list .products-list-details p{
+  margin-bottom: 0;
+}
+.products-list .products-list-details span{
+  background: url('/images/icons/ellipse.svg');
+  height: 5px;
+  width: 5px;
+  margin: 0 0.5rem;;
+}
+.products-list .product{
+  border: none;
+  border-radius: 1.2rem;
+  background: #141414;
+  font-family: 'Encode Sans';
+  font-style: normal;
+  transition: all ease .25s;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.products-list .product:hover{
+  box-shadow: 
+  0px 24px 38px 3px hsla(0,0%,0%,0.14), 
+  0px 9px 46px 8px hsla(0,0%,0%,0.12), 
+  0px 11px 15px -7px hsla(0,0%,0%,0.2);
+}
+.products-list .product .product-img{
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+}
+.products-list .product .product-title{
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.05em;
+  color: #E5DFD9;
+}
+.products-list .product .product-price{
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #E5DFD9;
+}
+.products-list .product .product-price small{
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #E5DFD9;
+}
+.products-list .product .product-price span{
+  font-weight: 500;
+  font-size: 0.6rem;
+  line-height: 15px;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #2FC14F;
+}
+footer{
+  font-family: 'Encode Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: #E5DFD9;
+}
+footer a.text-muted:hover{
+  color: #fff !important;
 }

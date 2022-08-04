@@ -30,7 +30,7 @@ export default function Products(props){
                                             </h4>
                                         </div>
                                         <div className="p-2 flex-shrink-1">
-                                            <a><Image src='/images/icons/add-to-cart.svg' height={40} width={26} /></a>
+                                            <a><Image src='/images/icons/add-to-cart.svg' height={40} width={26} alt={product.name} /></a>
                                         </div>
                                     </div>
                                 </div>

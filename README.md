@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Created Next.js app using NPM (Node Package Manager)
 - Converted website into next.js app
 - Fetched products listing from an RESTful API using Axios.
-- Used vercel to deploy this app seamlessly.
+- Used Netify to deploy this app seamlessly.
 
 
 ## Deploy on Netlify

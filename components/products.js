@@ -21,6 +21,7 @@ export default function Products(props){
                         <div className="col-md-3" key={product.id}>
                             <div className="card product mb-2">
                                 <img src={product.plpimaage} className="card-img-top product-img"/>
+                                <a className='product-bookmark'><Image src='/images/icons/bookmark.svg' height={34} width={26} alt="bookmark" /></a>
                                 <div className="card-body">
                                     <h5 className="card-title product-title">{product.name}</h5>
                                     <a href="#" className="stretched-link"></a>

@@ -115,6 +115,11 @@ body{
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
 }
+.products-list .product .product-bookmark{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
 .products-list .product .product-title{
   font-weight: 500;
   font-size: 1rem;

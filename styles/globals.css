@@ -27,12 +27,13 @@ body{
 .app-header nav .navbar-brand:hover, footer .navbar-brand:hover{
   color: #fff;
 }
-
-.app-header nav .navbar-nav .nav-item{
-  margin-right: 1.5rem;
+.app-header nav .top-menu li{
   transition: transform .25s ease-in-out;
 }
-.app-header nav .top-menu .nav-item:hover{
+.app-header nav .top-menu li{
+  background: transparent;
+}
+.app-header nav .top-menu li:hover{
   transform: scale(1.2);
 }
 .app-header nav .menu .nav-item a{
@@ -47,6 +48,7 @@ body{
   color: #E5DFD9;
   text-decoration: none;
   transition: all ease 0.25s;
+  margin-right: 1.5rem;
 }
 .app-header nav .menu .nav-item a:hover,
 .app-header nav .menu .nav-item a:link{

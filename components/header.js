@@ -28,24 +28,24 @@ export default function Header(){
                             <a href='#'>Jwellery</a>
                         </li>
                     </ul>
-                    <ul className='navbar-nav ms-auto top-menu'>
-                        <li className='nav-item'>
+                    <ul className='list-group list-group-horizontal ms-auto top-menu'>
+                        <li className='list-group-item'>
                             <a href='#' title='Search'><Image src="/images/icons/search.svg" height={18} width={18} alt="Search" /></a>
                         </li>
-                        <li className='nav-item'>
+                        <li className='list-group-item'>
                             <a href='#' title='Account'><Image src="/images/icons/user-alt.svg" height={18} width={18} alt="user-alt" /></a>
                         </li>
-                        <li className='nav-item'>
+                        <li className='list-group-item'>
                             <a href='#' title='Wishlist'><Image src="/images/icons/bookmark.svg" height={18} width={18} alt="bookmark" /></a>
                         </li>
-                        <li className='nav-item'>
+                        <li className='list-group-item'>
                             <a href='#' title='Shopping Cart'><Image src="/images/icons/shopping-bag.svg" height={18} width={18} alt="shopping-bag" /></a>
                         </li>
                     </ul>
                 </div>
                 </div>
             </nav>
-            <div className='mega-menu d-flex justify-content-between pt-5'>
+            <div className='mega-menu d-flex-inline d-md-flex justify-content-between pt-5'>
                 <div className='card mega-menu-item'>
                     <Image src="/images/icons/duffle-bag-backpack.svg" height={90} width={90} />
                     <a href='#' className='stretched-link'>All Bags</a>
